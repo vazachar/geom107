@@ -1,0 +1,114 @@
+/*Beloew begins is the navigation bar at the top of both my pages- Source: https://www.w3schools.com/css/css_navbar.asp*/
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+  li.navigation {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+/*end of navigation bar at the top of both pages*/
+
+/*Below begins the Background colour*/
+
+    body {
+     background-color: rgb(254, 254, 255);
+   }
+/*ends the Background colour*/
+
+/*Below begins the backgroung image (page 1), source: https://www.w3schools.com/cssref/pr_background-image.asp*/  
+   .background1{
+    background-image: url(/images1/algonquinsunset1.JPG);
+}
+/* Ends is the background image (page1)*/
+/*below defines the colours, alignment and the fint size of the headings ( & ID)*/
+
+     h1#title {
+   color: rgb(159, 149, 204);
+   text-align:center;
+   font-size: 50px;
+   }
+
+      h2 {
+   color: rgb(159, 149, 204);
+   text-align:center;
+   }
+
+   h3 {
+   color:rgb(255, 255, 255);
+   text-align: center;
+   }
+   /* end of headings specifications*/
+  
+   /* API maps height, width and padding specifications*/ 
+.API {
+  height: auto;
+  /* The height is 400 pixels */
+  width: auto;
+  /* The width is the width of the web page */
+  padding-left: 13%;
+}
+/*end of API specifications*/
+
+/*the paragraph text specifications, margin left and right*/
+
+div.uppertextabout {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+div.lowertextabout {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+/*end of paragraph text specifications*/
+
+/*image secifications (all images are in native resolution), margin around each image*/
+
+img {
+  width: 400px;
+  height: 600px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+/*end of image specifications*/
+
+/*paragraph text colour specifications*/
+
+p {color:rgb(255, 255, 255);
+}
+/*end of paragraph colour specifications*/
+
+/*list colour specifications*/
+div.studiolist {
+  color:rgb(255, 255, 255);
+  }
+/*end of list specfications*/
+
+/*external links specifications, no line under, colour, hover and hover colour, and bolded*/
+a.externallinks{
+  text-decoration-line:none;
+  color:rgb(159, 149, 204);
+  font-weight: bold;
+}
+
+a.externallinks:hover {
+color:rgb(181, 253, 253)
+}
+
+/*end of external link specifications*/
