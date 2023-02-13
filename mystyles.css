@@ -13,7 +13,7 @@ ul.nav {
   
   li a {
     display: block;
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -27,31 +27,39 @@ ul.nav {
 /*Below begins the Background colour*/
 
     body {
-     background-color: rgb(254, 254, 255);
+     background-color: rgb(255, 255, 255);
    }
 /*ends the Background colour*/
 
-/*Below begins the backgroung image (page 1), source: https://www.w3schools.com/cssref/pr_background-image.asp*/  
+/* Below begins the backgroung image (page 1), source: https://www.w3schools.com/cssref/pr_background-image.asp  
    .background1{
-    background-image: url(/images1/algonquinsunset1.JPG);
-}
+    background-image: url(/images1/algonquinsunset1.JPG); */
+/* } */
 /* Ends is the background image (page1)*/
 /*below defines the colours, alignment and the fint size of the headings ( & ID)*/
 
      h1#title {
-   color: rgb(159, 149, 204);
-   text-align:center;
-   font-size: 50px;
+      color: rgb(0, 0, 0);
+      text-align:center;
+      font-size: 50px;
+      border-width: 3px;
+      border-style:solid; 
+      border-color:#000000
    }
 
       h2 {
-   color: rgb(159, 149, 204);
+   color: rgb(0, 0, 0);
    text-align:center;
+   font-size: 30px;
+   
    }
 
    h3 {
-   color:rgb(255, 255, 255);
+   color:rgb(0, 0, 0);
    text-align: center;
+   font-size: 30px;
+
+
    }
    /* end of headings specifications*/
   
@@ -70,11 +78,13 @@ ul.nav {
 div.uppertextabout {
   margin-left: 50px;
   margin-right: 50px;
+
 }
 
 div.lowertextabout {
   margin-left: 50px;
   margin-right: 50px;
+
 }
 /*end of paragraph text specifications*/
 
@@ -90,7 +100,11 @@ img {
 
 /*paragraph text colour specifications*/
 
-p {color:rgb(255, 255, 255);
+p {color:rgb(0, 0, 0);
+  margin: 15px;
+    padding: 15px;
+    background-color: rgba(1, 2, 1, 0.377);
+    font-size: 20px;
 }
 /*end of paragraph colour specifications*/
 
@@ -103,12 +117,15 @@ div.studiolist {
 /*external links specifications, no line under, colour, hover and hover colour, and bolded*/
 a.externallinks{
   text-decoration-line:none;
-  color:rgb(159, 149, 204);
+  color:rgb(0, 0, 0);
   font-weight: bold;
+  margin: 15px;
+  padding: 8px;
+  background-color: rgba(228, 158, 158, 0.479)
 }
 
 a.externallinks:hover {
-color:rgb(181, 253, 253)
+color:rgb(255, 6, 6)
 }
 
 /*end of external link specifications*/
